@@ -1,4 +1,4 @@
-﻿class Singleton
+﻿public class Singleton
 { 
     public static Singleton GetInstance()
     {
@@ -14,6 +14,14 @@
         Console.WriteLine("Construktor Singleton");
     }
 
-    private static Singleton _instance = null;
+
+    private static Singleton? _instance = null;
+
+    private string _name = "";
+    public string Name
+    {
+        get { return _name; }
+        set { _name = value; }
+    }
 
 }

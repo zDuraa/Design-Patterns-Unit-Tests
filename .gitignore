@@ -10,3 +10,5 @@
 /Composite/obj
 /Observer/obj
 /Patterns-and-Tests/obj
+bin/
+obj/
